@@ -1,6 +1,7 @@
 
 /* Hide nested submenus by default; show on hover (desktop) and via .open class (mobile) */
 
+
 nav.navbar > ul { list-style: none !important; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;   font-family: "Libre Bodoni", serif; font-weight: 600;   font-style: normal;}
 nav.navbar > ul > li { position: relative; }
 nav.navbar > ul > li > a { display: block; color: #fff; padding: 10px 14px; text-decoration: none; }
@@ -49,6 +50,11 @@ nav.navbar ul ul li a { padding: 8px 12px; color: #fff; }
 nav.navbar a:focus { outline: 2px dashed rgba(255,255,255,0.12); }
 
 
+.mimenu   a:hover { color:#009cff; }
 
 
+.redes a:hover{
 
+	color: #009cff !important;
+
+}
