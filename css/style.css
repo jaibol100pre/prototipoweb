@@ -9666,8 +9666,9 @@ h4, h5, h6 {
 
 
 .redes {
-  padding: 0 0 0 25%;
-  font-size: 2 em;
+  padding: 0;
+  margin: 0 0 0 21%;
+  
 }
 
 .redes a {
