@@ -9675,3 +9675,19 @@ h4, h5, h6 {
   color: white;
   font-weight: 600;
 }
+
+
+footer h5 {
+
+  color: #FFF !important;
+  font-weight: 700 !important;
+}
+
+
+#service p {
+  color: #1164ad;
+  font-weight: 700;
+  text-transform: uppercase !important;
+
+
+}
