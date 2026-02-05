@@ -1,67 +1,47 @@
-Home
-Concrete Services
-Pavers and Hardscapes
-Other Services
-Equipment Rental
-Projects
-About
-Contact
-
-
-
-
-Home
-Concrete Services
-
-    Residential Concrete Services
-        Concrete Driveways
-        Concrete Patios
-        Concrete Pool Areas
-        Stamped Concrete
-        Decorative Concrete
-        Concrete Slabs
-        Concrete Foundations
-    Commercial Concrete Services
-        Commercial Concrete Slabs
-        Commercial Concrete Foundations
-        Commercial Concrete Driveways
-        Commercial Stamped Concrete
-        Commercial Decorative Concrete
-    Concrete Delivery
-    Concrete Supply
-    Concrete Calculator
-    Residential Membership Services
-
-Pavers and Hardscapes
-Other Services
-
-    Custom Carpentry
-        Custom Pergola Contractor
-        Custom Wood Fencing
-        Custom Wood Decks
-    Exteriors Services
-        Roof Replacement
-        Roof Repairs
-        Siding Replacement
-    Landscaping Services
-    Remodeling Services
-    Flooring & Carpet
-    Painting Services
-    Pressure Washing Services
-
-Equipment Rental
-Projects
-
-    Driveway Projects
-    Patio Projects
-    Sidewalk Projects
-
-About
-
-    FAQs
-    Reviews
-    Blog
-    Resources
-        Kraft Tool Co.® Catalog
-
-Contact 
+-Home
+-Concrete Services
+    +Residential Concrete Services
+        -Concrete Driveways
+        -Concrete Patios
+        -Concrete Pool Areas
+        -Stamped Concrete
+        -Decorative Concrete
+        -Concrete Slabs
+        -Concrete Foundations
+    +Commercial Concrete Services
+        -Commercial Concrete Slabs
+        -Commercial Concrete Foundations
+        -Commercial Concrete Driveways
+        -Commercial Stamped Concrete
+        -Commercial Decorative Concrete
+    +Concrete Delivery
+    +Concrete Supply
+    +Concrete Calculator
+    +Residential Membership Services
+-Pavers and Hardscapes
++Other Services
+    +Custom Carpentry
+        -Custom Pergola Contractor
+        -Custom Wood Fencing
+        -Custom Wood Decks
+    +Exteriors Services
+        -Roof Replacement
+        -Roof Repairs
+        -Siding Replacement
+    +Landscaping Services
+        -Remodeling Services
+        -Flooring & Carpet
+        -Painting Services
+        -Pressure Washing Services
+-Equipment Rental
++Projects
+    -Driveway Projects
+    -Patio Projects
+    -Sidewalk Projects
++About
+    -FAQs
+    -Reviews
+    -Blog
+    +Resources
+        -Kraft Tool Co.® Catalog
+-Contact 
