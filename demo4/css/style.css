@@ -1,0 +1,116 @@
+
+:root {
+    --primary: #1164ad;
+    --secondary: #009cff;
+    --muted: #6c757d;
+}
+
+.page {
+   margin: 0 ;
+   padding: 0;
+   background-color: pink;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.mibanner  {
+    padding:  1% 0 0 0;
+}
+.mibanner img {
+    border-radius: 20px;
+}
+.milogo {
+    padding: 1% 0;
+}
+
+.ph3 {
+ 
+}
+
+.b--theme-accent {
+  border-color: #00a499;
+}
+
+.bw2 {
+  border-width: .25rem;
+}
+
+
+nav{
+
+    background-color: var(--primary);
+}
+
+
+footer { 
+    padding: 0;
+    margin:  0;
+    background-color: brown;
+    text-align: center;
+}
+
+
+
+.mifooter p {
+    text-align: center;
+
+}
+
+
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    transition: transform 0.5s ease;
+    mix-blend-mode: multiply; /* Si tus fotos tienen fondo blanco */
+}
+
+.hover-dark:hover {
+    color: #000 !important;
+}
+
+/* Para que los inputs no se vean toscos */
+.form-check-input:checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Quitar el borde azul de Bootstrap al hacer clic */
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border-color: var(--secondary);
+}
+
+.product-item {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product-card .position-relative:hover .quick-view-overlay {
+    opacity: 1 !important;
+}
+
+.btn-white {
+    background-color: white;
+    border: 1px solid #eee;
+    transition: all 0.2s;
+}
+
+.btn-white:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* Efecto de mezcla de imagen como Ferguson */
+.mix-blend-multiply {
+    mix-blend-mode: multiply;
+}

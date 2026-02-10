@@ -1,0 +1,183 @@
+/* Ajustes de tipografía y enlaces */
+body {
+    font-family: 'Inter', sans-serif; /* Asegúrate de cargarla de Google Fonts */
+}
+
+.nav-link {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    padding: 1.5rem 1rem !important; /* Aumenta el área táctil y el aire */
+}
+
+/* Efecto Hover en el Mega Menú */
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    font-size: 0.9rem;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background: transparent;
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Bordes y sombras minimalistas */
+.dropdown-menu {
+    border-top: 1px solid #eee !important;
+}
+
+/* Color adjustments using variables */
+.navbar-brand { color: var(--primary); }
+.nav-link { color: #222; }
+.nav-link:hover, .nav-link:focus { color: var(--secondary); outline: none; }
+
+/* Collapse animation + mobile overlay */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: #fff;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        padding: 1rem 1.5rem;
+        z-index: 1050;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        -webkit-overflow-scrolling: touch;
+        transform-origin: top;
+        transform: translateY(-8px);
+        opacity: 0;
+        transition: transform 220ms ease, opacity 220ms ease;
+    }
+
+    .navbar-collapse.show {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.6rem 0 !important;
+        font-size: 0.95rem;
+    }
+}
+
+/* Focus styles for accessibility */
+.nav-link:focus {
+    box-shadow: 0 0 0 3px rgba(0,156,255,0.12);
+    border-radius: 4px;
+}
+
+/* Responsive collapse styling: make the collapsed menu appear as an overlay panel on mobile */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: #fff;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        padding: 1rem 1.5rem;
+        z-index: 1050;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .navbar-nav {
+        margin-top: 0.25rem;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.6rem 0 !important;
+        font-size: 0.95rem;
+    }
+
+    .dropdown-menu {
+        position: static !important;
+        float: none;
+        width: 100% !important;
+        box-shadow: none !important;
+        border: 0 !important;
+        padding-left: 0;
+    }
+}
+
+/* Hamburger custom appearance */
+.navbar-toggler {
+    width: 44px;
+    height: 40px;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    display: inline-block;
+    width: 22px;
+    height: 14px;
+    position: relative;
+}
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon div {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #111;
+}
+.navbar-toggler-icon::before { top: 0; }
+.navbar-toggler-icon div { top: 6px; }
+.navbar-toggler-icon::after { bottom: 0; }
+
+/* Megamenu layout for desktop */
+.dropdown.position-static .dropdown-menu {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.dropdown-menu .container .row > div h6 {
+    font-size: 0.9rem;
+    letter-spacing: 0.6px;
+}
+
+.dropdown-menu a.hover-dark {
+    color: #6c757d;
+}
+
+.dropdown-menu a.hover-dark:hover {
+    color: #111;
+    text-decoration: none;
+}
+
+/* Desktop: animate dropdown appearance */
+@media (min-width: 992px) {
+    .dropdown-menu {
+        opacity: 0;
+        transform: translateY(6px);
+        transition: opacity 180ms ease, transform 180ms ease;
+        display: block; /* allow positioning, we'll control visibility via parent hover */
+        visibility: hidden;
+    }
+
+    .dropdown:hover > .dropdown-menu {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+/* Make the right featured column stand out */
+.dropdown-menu .border-start {
+    border-left: 1px solid #efefef;
+}
+
+/* Slight spacing tweaks */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: #222;
+}
